@@ -1,0 +1,4 @@
+config SHIELD_SP_ALICE_MIN2U_LEFT
+    def_bool $(shields_list_contains,sp_alice_min2u_left)
+config SHIELD_SP_ALICE_MIN2U_RIGHT
+    def_bool $(shields_list_contains,sp_alice_min2u_right)

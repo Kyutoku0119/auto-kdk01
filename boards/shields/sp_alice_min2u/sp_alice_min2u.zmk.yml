@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: sp_alice_min2u
+name: sp_alice_min2u
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - sp_alice_min2u_left
+  - sp_alice_min2u_right

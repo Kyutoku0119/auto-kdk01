@@ -1,0 +1,14 @@
+
+if SHIELD_SP_ALICE_MIN2U_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "sp_alice_min2u"
+
+endif
+
+if SHIELD_SP_ALICE_MIN2U_LEFT || SHIELD_SP_ALICE_MIN2U_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
